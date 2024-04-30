@@ -1,3 +1,14 @@
+<?php
+
+//set usernames and passwords in an array
+$users = ['alex', 'mike']
+$users['alex'] = 'alex';
+$users['mike'] = 123;
+
+
+
+?>
+
 <html>
   <head>
     <title>COSC4806 Assignment 1</title>
