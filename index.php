@@ -1,26 +1,20 @@
-<?php
-
-//set usernames and passwords in an array
-$users = ['alex', 'mike']
-$users['alex'] = 'alex';
-$users['mike'] = 123;
-
-
-
-?>
-
 <html>
   <head>
     <title>COSC4806 Assignment 1</title>
   </head>
   <body>
-    <h1>Login</h1>
-    <form action="" method="post">
-      <input type="text" name="userName" value="enter your username"/></br></br>
-      <input type="passowrd" name="userPass" value="enter your password"/></br></br>
-      <input type="submit" name="btnLogin" value="Login"/></br></br>
+    <h1>Welcome, !</h1>
+    <h2>Current Date</h2>
+    <form action="logoutPage.php" method="post">
+      <input type="submit" name="btnLogout" value="Logout"/>
     </form>
-  </body>
+    <form action="login.php" method="post">
+      <input type="submit" name="btnLogin" value="Login"/>
+    </form>
     
+    
+
+  </body>
+
 
 </html>
