@@ -18,8 +18,8 @@
     } else {
       $_SESSION['login_attempts']++;
     }
-
-    echo "unseccesful attempt " . $_SESSION['login_attempts'];
+    header ('location: /login.php');
+    
   }
 
 ?>

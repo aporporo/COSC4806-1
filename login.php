@@ -1,4 +1,12 @@
+<?php
+  session_start();
 
+  if (isset($_SESSION['login_attempts'])) {
+    echo "Unsuccessful attempt: " . $_SESSION['login_attempts'];
+  } else {
+    echo " ";
+  }
+?>
 
 <html>
   <head>
@@ -14,6 +22,8 @@
       <input type="submit" name="btnLogin" value="Login"/></br></br>
       
     </form>
+
+    
 
   </body>
     
