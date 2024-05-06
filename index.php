@@ -1,16 +1,13 @@
 <html>
   <head>
-    <title>COSC4806 Assignment 1</title>
+    <title>COSC4806 Assignment 1 - Alex</title>
   </head>
   <body>
-    <h1>Welcome, !</h1>
-    <h2>Current Date</h2>
-    <form action="logoutPage.php" method="post">
-      <input type="submit" name="btnLogout" value="Logout"/>
-    </form>
-    <form action="login.php" method="post">
-      <input type="submit" name="btnLogin" value="Login"/>
-    </form>
+
+    <h1>Assignment 1</h1>
+
+    <p><a href="/login.php">Click here to login</a></p>
+    
     
     
 
