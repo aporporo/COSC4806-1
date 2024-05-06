@@ -1,13 +1,7 @@
-<html>
-  <head>
-    <title>COSC4806 Assignment 1</title>
-  </head>
-  <body>
-    <h1>Logout</h1>
-    
+<?php
 
+  session_start();
+  session_destroy();
 
-  </body>
-
-
-</html>
+  header('location: /login.php');
+?>
