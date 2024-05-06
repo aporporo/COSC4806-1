@@ -12,7 +12,7 @@ session_start();
 
     <p> Welcome, <?=$_SESSION['username'] ?></p>
 
-    <p><a href="/login.php">Click here to login</a></p>
+    <p><a href="/logoutPage.php">Click here to logout</a></p>
     
     
     
